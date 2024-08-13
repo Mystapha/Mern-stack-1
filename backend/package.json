@@ -1,0 +1,22 @@
+{
+  "author": "",
+  "dependencies": {
+    "backend": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "server.js",
+  "name": "backend",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
